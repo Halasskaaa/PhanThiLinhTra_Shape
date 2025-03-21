@@ -6,7 +6,15 @@
 		{
 			Rectangle rectangle = new Rectangle(false, "red", 1, 2);
 
-            Console.WriteLine(rectangle);
+			Shape[] shapes =
+			{
+				rectangle,
+				new Square(true, "blue", 1, 1),
+				new Circle("black", 5)
+				
+
+			};
+
         }
 	}
 }
