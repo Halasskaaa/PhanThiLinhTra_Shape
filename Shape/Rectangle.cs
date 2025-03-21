@@ -28,5 +28,10 @@ namespace Shape
 		{
 			return 2 * (width + height);
 		}
+
+		public override string? ToString()
+		{
+			return base.ToString() + " - Rectangle";
+		}
 	}
 }
