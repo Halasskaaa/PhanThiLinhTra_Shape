@@ -38,5 +38,10 @@ namespace Shape
 			return $"{color} - {isHoley} : K: {Perimeter()} T: {Area}";
 		}
 
+		public void aceInTheHole()
+		{
+
+		}
+
 	}
 }

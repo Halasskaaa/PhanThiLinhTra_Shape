@@ -31,5 +31,17 @@ namespace Shape
 		{
 			return "Kör " + base.ToString();
 		}
+
+		public override bool Equals(object? obj)
+		{
+			if (obj is Circle other)
+			{
+				// circ a,b
+				// a == b
+			}
+
+			return base.Equals(obj);
+		}
+
 	}
 }
