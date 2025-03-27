@@ -33,5 +33,14 @@ namespace Shape
 		{
 			return base.ToString() + " - Rectangle";
 		}
+
+		public static Rectangle RectOrSquare(bool isHoley, string color, double width, double height)
+  		{
+    			if (width == height)
+       			{
+	  		return new Square(isHoley, color, width, height);
+			}
+   		return new Rectangle(isHoley, color, width, height);
+		}
 	}
 }
