@@ -15,6 +15,12 @@
 				new Square(false, "green", 6, 6)
 			};
 
-        }
+			foreach (var item in shapes)
+			{
+				item.aceInTheHole();
+				Console.WriteLine(item);
+			}
+
+        	}
 	}
 }
