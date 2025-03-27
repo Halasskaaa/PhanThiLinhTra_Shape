@@ -21,6 +21,9 @@
 				Console.WriteLine(item);
 			}
 
+			Shape newShape = Rectangle.RectOrSquare(false, "purple", 4, 4);
+
+			
         	}
 	}
 }
