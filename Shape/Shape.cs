@@ -40,7 +40,10 @@ namespace Shape
 
 		public void aceInTheHole()
 		{
-
+			if ( Area() > Perimeter() ) 
+			{
+				MakeHoley();
+			}
 		}
 
 	}
