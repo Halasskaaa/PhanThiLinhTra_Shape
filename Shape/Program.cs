@@ -23,6 +23,23 @@
 
 			Shape newShape = Rectangle.RectOrSquare(false, "purple", 4, 4);
 
+			static Shape Biggest(Shape[] shapes)
+			{
+				Shape biggest = shapes[0];
+
+				foreach(Shape item in shapes)
+				{
+					if ( item.Area() > biggest.Area() )
+					{
+						biggest = item;
+					}
+				}
+				
+				return biggest;
+			}
+
+			Shape biggestShape = Biggest(shapes);
+			Console.WriteLine($"A legnagyobb területű síkidom: {biggestShape}");
 			
         	}
 	}
